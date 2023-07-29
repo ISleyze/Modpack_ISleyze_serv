@@ -1,0 +1,19 @@
+
+["Experience Costs Every 10 Second"]
+	#Range: 0 ~ 100
+	"Set this value to 0 to disable Experience Point Costs (Default:1)" = 1
+	"Beacons effect all nearby Players (Similar to a Beacon Block)" = false
+
+["Soulbound Options"]
+	#Set options to true to grant Soulbound to specific beacons and have the item remain on the player through death.
+	"Iron I Beacon" = true
+	"Iron II Beacon" = true
+	"Gold I Beacon" = true
+	"Gold II Beacon" = true
+	"Emerald I Beacon" = true
+	"Emerald II Beacon" = true
+	"Diamond I Beacon" = true
+	"Diamond II Beacon" = true
+	"Netherite I Beacon" = true
+	"Netherite II Beacon" = true
+

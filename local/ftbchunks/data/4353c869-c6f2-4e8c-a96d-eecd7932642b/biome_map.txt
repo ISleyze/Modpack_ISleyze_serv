@@ -1,0 +1,12 @@
+#3D6 minecraft:cold_ocean
+#705 minecraft:deep_frozen_ocean
+#010 minecraft:forest
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#6DE terralith:ice_marsh
+#5FF minecraft:river
+#4E5 minecraft:snowy_plains
+#340 minecraft:snowy_taiga
+#51A minecraft:stony_shore
+#169 minecraft:taiga
+#1D0 terralith:yellowstone
