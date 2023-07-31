@@ -1,0 +1,1 @@
+#define MAX_COLOR_RANGE 12.0

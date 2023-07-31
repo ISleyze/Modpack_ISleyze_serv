@@ -1,0 +1,54 @@
+- New tonemapper (Uncharted 2)
+- Added stage spidereyes
+- In case torchlight doesn't work in Minecraft, emissive entities will be lit properly
+- Changed water and ambient color
+- Replaced motionblur with reprojection based motionblur
+- Added temperature slider
+- Added torchlight temperature slider
+- Added feature "Waving Water"
+- Added feature "Dirty Lens" (only applied to sun)
+- Warmer ambient color
+- A little darker ambient light
+- Reduced film grain amount
+- Added feature rain puddles
+- Changed PBR roughness curve
+- Reduced saturation by 1.045 %
+- Removed ambientlight falloff
+- Replaced default sun
+- Improved emissive light
+- Added max color range
+- Added feature "Bloom"
+- Fixed entity redstone lamp
+- Replaced godrays with volumetric light
+- Added redstone wire to emissive
+- Fixed out of bounds bloom
+- Applied sunFactor to sun and sun reflection
+- Updated .lang file
+- Added Volumetric Light quality control (Low, Medium, High)
+- Removed sunflares, since Bloom basically replaces it
+- Fixed dark reflections when using Mirrored method
+- Exponential ray samples
+- Added option to switch between godrays and volumetric light
+- Updated en_US.lang
+- Added Stratum PBR format
+- Added High profile
+- Improved Pulchra PBR format
+- Improved sun reflection for PBR
+- Fixed super bright gbuffer stages
+- Added feature "POM"
+- Added feature "Auto Bump"
+- Added feature "Normals for Torchlight"
+- Medium is the new default profile
+- Enabled soft shadows for Medium profile
+- Set SSR Method on Reflected Vector for Medium profile
+- Enabled rain puddles on Cinematic profile
+- Slightly stronger beacon beam
+- Improved screen space reflections border
+- Improved godrays fade out when the sun is not in screen space
+- Added more controls for tonemapping
+- Profile presets now go from Lite to Cinematic
+- Fixed reflections on textures with transparency
+- Updated Nether
+- Added feature "Heatwave"
+- Added underlava fog
+- Updated shader options and code cleanup

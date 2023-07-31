@@ -1,0 +1,87 @@
+#Main
+screen.PostProcess = Post Process
+screen.Patreon=Patreon Reward
+
+#Shadows
+option.shadowMapResolution=Shadow Resolution
+option.shadowDistance=Shadow Distance
+option.SOFT_SHADOWS=Soft Shadows
+option.FIX_SUNLIGHT_LEAK=Fix Underground Light Leak
+option.FIX_SUNLIGHT_LEAK.comment=This will fix sunlight leaking in underground by multiplying the sunlight with the cavelight.
+
+#Reflections
+option.PBR=Physically Based Rendering
+option.SSR_METHOD=SSR Method
+value.SSR_METHOD.0=Reflected Vector
+value.SSR_METHOD.1=Raytrace
+option.SSR_METHOD.comment=Reflected Vector: Very fast, 1 sample only but somtimes inaccurate. Raytrace: Traditional Screen Space Reflections (SSR),
+
+#Environment
+option.AMBIENT_OCCLUSION=Ambient Occlusion
+option.AMBIENT_OCCLUSION.comment=Also known as SSAO
+option.GODRAYS=Godrays
+option.WINDY_TERRAIN=Windy Terrain
+option.WIND_SPEED=Wind Speed
+option.TEMPERATURE=Color Temperature
+option.TEMPERATURE.comment=Lower -> Cold. Higher -> Warm.
+option.TORCHLIGHT_TEMPERATURE=Torchlight Temperature
+option.TORCHLIGHT_TEMPERATURE.comment=Lower = Cold. Higher = Warm.
+option.WAVING_WATER=Waving Water
+option.VOLUMETRIC_LIGHT=Volumetric Light
+option.VL_QUALITY=Quality
+value.VL_QUALITY.0=Low
+value.VL_QUALITY.1=Medium
+value.VL_QUALITY.2=High
+option.VL_RENDERDISTANCE=Render Distance
+option.LIGHT_SCATTERING=Light Scattering
+value.LIGHT_SCATTERING.0=OFF
+value.LIGHT_SCATTERING.1=Godrays
+value.LIGHT_SCATTERING.2=Volumetric Light
+
+#Effects
+option.DISTANCE_BLUR=Distance Blur
+option.RAINDROP_REFRACTION=Raindrop Refraction
+option.MOTIONBLUR=Motionblur
+option.MOTIONBLUR_AMOUNT=Motionblur Amount
+option.DEPTH_OF_FIELD=Depth of Field
+option.centerDepthHalflife=Focus Speed
+option.DIRTY_LENS=Dirty Lens
+option.DIRTY_LENS.comment=Only applied to sun and moon
+option.BLOOM=Bloom
+option.HEATWAVE=Heatwave
+option.HEATWAVE.comment=Only in the Nether.
+
+#Surface
+option.PBR_FORMAT=PBR Format
+option.PBR_FORMAT.comment=Select the format matching to your resource pack. Default: r = smoothness; g = metallic.
+option.NORMAL_MAP_BUMPMULT=Normal Map Bumpmult
+value.PBR_FORMAT.0=Default
+value.PBR_FORMAT.1=Greyscale (Legacy)
+value.PBR_FORMAT.2=Pulchra + Continuum Addon
+value.PBR_FORMAT.3=Chroma Hills
+value.PBR_FORMAT.4=Stratum
+option.RAIN_PUDDLES=Rain Puddles
+option.AUTO_BUMP=Auto Bump
+option.AUTO_BUMP.comment=Will automatically generate normals maps. Useful for resource packs that don't include normal maps.
+option.TEXTURE_RESOLUTION=Texture Resolution
+option.TEXTURE_RESOLUTION.comment=Adjust the resolution to your current resource pack. You can use a higher resolution to keep some details.
+option.TORCH_NORMALS=Torchlight Normal Mapping
+option.TORCH_NORMALS.comment=Simulates normal mapping for torchlight. Still buggy at some cases!
+option.POM=Parallax Occlusion Mapping
+option.POM_DEPTH=Depth
+
+#PostProcess
+option.CHROMATIC_ABERRATION=Chromatic Aberration
+option.LENS_FLARE=Lens Flare
+option.VIGNETTE=Vignette
+option.FILM_GRAIN=Film Grain
+option.CINEMATIC_MODE=Cinematic Mode
+option.CINEMATIC_MODE.comment=Will crop the screen to a cinematic format.
+
+#Tonemapping
+option.TONEMAPPING=Tonemapping
+option.EXPOSURE=Exposure
+option.SATURATION=Saturation
+option.CONTRAST=Contrast
+option.BRIGHTNESS=Brightness
+option.WHITESCALE=White Scale
